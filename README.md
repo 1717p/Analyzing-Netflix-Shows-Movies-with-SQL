@@ -24,7 +24,7 @@ The goal of this project is to explore and analyze Netflix's movie and TV show d
 ├──Analyzing Netflix Shows & Movies with SQL.pptx - PowerPoint presentation with insights
 
 - 📥 [Download PPTX](Analyzing Netflix Shows & Movies with SQL.pptx)
-- 🔎 [View PDF Online](Analyzing Netflix Shows & Movies with SQL.pdf)
+
 
 
 ├── Dataset used: https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv 
