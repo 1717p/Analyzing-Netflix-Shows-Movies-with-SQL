@@ -7,13 +7,14 @@ The insights are visualized and presented in a PowerPoint presentation (`.pptx`)
 
 ---
 🛠️ Tools Used
-SQL – for data cleaning, filtering, grouping, and analytical queries
 
-SQLite / MySQL – local RDBMS for running queries
+- SQL – for data cleaning, filtering, grouping, and analytical queries
 
-PowerPoint – for visual storytelling and presenting insights
+- SQLite / MySQL – local RDBMS for running queries
 
-Excel / CSV – data formatting and pre-processing (if needed)
+- PowerPoint – for visual storytelling and presenting insights
+
+- Excel / CSV – data formatting and pre-processing (if needed)
 
 ## 🔍 Key Questions Explored
 📝 Overview
@@ -34,26 +35,26 @@ The goal of this project is to explore and analyze Netflix's movie and TV show d
 
 
 📊 Sample SQL Queries
-sql
-Copy
-Edit
--- Count of Movies vs TV Shows
+
+-  Count of Movies vs TV Shows
 SELECT type, COUNT(*) AS count
 FROM titles
 GROUP BY type;
 
--- Top 10 countries by number of titles
+-  Top 10 countries by number of titles
 SELECT production_countries, COUNT(*) AS total
 FROM titles
 GROUP BY production_countries
 ORDER BY total DESC
 LIMIT 10;
 
--- Year-wise release trend
+-  Year-wise release trend
 SELECT release_year, COUNT(*) AS count
 FROM titles
 GROUP BY release_year
 ORDER BY release_year;
+
+
 ## 📈 Output & Visualization
 - The PowerPoint presentation includes:
 
