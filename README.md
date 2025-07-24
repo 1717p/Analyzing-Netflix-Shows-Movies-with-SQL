@@ -6,7 +6,7 @@ This project presents an analysis of Netflix's content library using **Structure
 The insights are visualized and presented in a PowerPoint presentation (`.pptx`), which includes key metrics, trends, and summaries based on the Netflix dataset.
 
 ---
-🛠️ Tools Used
+## 🛠️ Tools Used
 
 - SQL – for data cleaning, filtering, grouping, and analytical queries
 
@@ -34,7 +34,7 @@ The goal of this project is to explore and analyze Netflix's movie and TV show d
 
 
 
-📊 Sample SQL Queries
+# 📊 Sample SQL Queries
 
 -  Count of Movies vs TV Shows
 SELECT type, COUNT(*) AS count
@@ -68,7 +68,7 @@ ORDER BY release_year;
 
 - Presentation file: Analyzing Netflix Shows & Movies with SQL.pptx
 
-🚀 How to Use
+# 🚀 How to Use
 - Clone or download this repo.
 
 - Load the titles.csv file into your SQL database.
@@ -79,5 +79,5 @@ ORDER BY release_year;
 
 
 
-📬 Feedback
+# 📬 Feedback
 If you have suggestions or feedback, feel free to raise an issue or connect with me!
