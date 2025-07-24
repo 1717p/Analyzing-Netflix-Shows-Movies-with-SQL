@@ -30,6 +30,7 @@ The goal of this project is to explore and analyze Netflix's movie and TV show d
 
 ## 📁 Netflix_SQL_Presentation/
 ├──Analyzing Netflix Shows & Movies with SQL.pptx - PowerPoint presentation with insights
+
 ├── Dataset used: https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv 
 
 
@@ -37,9 +38,9 @@ The goal of this project is to explore and analyze Netflix's movie and TV show d
 ## 📊 Sample SQL Queries
 
 -  Count of Movies vs TV Shows
-SELECT type, COUNT(*) AS count
-FROM titles
-GROUP BY type;
+   SELECT type, COUNT(*) AS count
+   FROM titles
+   GROUP BY type;
 
 -  Top 10 countries by number of titles
 SELECT production_countries, COUNT(*) AS total
