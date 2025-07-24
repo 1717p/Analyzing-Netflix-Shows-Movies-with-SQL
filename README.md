@@ -28,13 +28,13 @@ The goal of this project is to explore and analyze Netflix's movie and TV show d
 - Duration and rating distributions
 ---
 
-# 📁 Netflix_SQL_Presentation/
+## 📁 Netflix_SQL_Presentation/
 ├──Analyzing Netflix Shows & Movies with SQL.pptx - PowerPoint presentation with insights
 ├── Dataset used: https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv 
 
 
 
-# 📊 Sample SQL Queries
+## 📊 Sample SQL Queries
 
 -  Count of Movies vs TV Shows
 SELECT type, COUNT(*) AS count
@@ -68,7 +68,7 @@ ORDER BY release_year;
 
 - Presentation file: Analyzing Netflix Shows & Movies with SQL.pptx
 
-# 🚀 How to Use
+## 🚀 How to Use
 - Clone or download this repo.
 
 - Load the titles.csv file into your SQL database.
@@ -79,5 +79,5 @@ ORDER BY release_year;
 
 
 
-# 📬 Feedback
+## 📬 Feedback
 If you have suggestions or feedback, feel free to raise an issue or connect with me!
